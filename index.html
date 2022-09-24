@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[url('/bg.jpeg')] bg-cover">
+    <div id="taskbar" class="w-full absolute bottom-0 flex justify-center bg-[#f3f3f3]">
+            <img src="/icons.PNG" alt="taskbar">
+            <img class="absolute right-0 h-4/5 m-2" src="/taskbarright.PNG" alt="">
+    </div>
+
+    <div id="startMenu" class="absolute bottom-12 px-96">
+        <img src="/startmenu.PNG" alt="">
+    </div>
+
+    <div id="desktopIcons" class="ml-4 mt-12">
+        <div id="chrome" class="flex-col align-middle w-24 h-32 cursor-pointer hover:border-2 hover:bg-opacity-40 hover:bg-blue-200 active:bg-slate-400">
+            <img src="/chromeicon.png" alt="chromeicon" class="h-14 m-auto">
+            <div class="text-white text-center mt-3">Chrome</div>
+        </div>
+        <div id="chrome" class="flex-col align-middle w-24 h-32 cursor-pointer hover:border-2 hover:bg-opacity-40 hover:bg-blue-200 active:bg-slate-400">
+            <img src="/edgeicon.png" alt="edgeicon" class="h-14 m-auto">
+            <div class="text-white text-center mt-3">Edge</div>
+        </div>
+        <div id="chrome" class="flex-col align-middle w-24 h-32 cursor-pointer hover:border-2 hover:bg-opacity-40 hover:bg-blue-200 active:bg-slate-400">
+            <img src="/recyclebinicon.png" alt="binicon" class="h-14 m-auto">
+            <div class="text-white text-center mt-3">Recycle Bin</div>
+        </div>
+    </div>
+</body>
+<script src="/main.js"></script>
+</html>
